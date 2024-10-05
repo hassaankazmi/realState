@@ -1,4 +1,6 @@
 body {
+    max-width: 100%;
+    overflow-x: hidden;
     margin: 0;
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
@@ -440,22 +442,40 @@ height: 48px;
 
 .contact_1{
     position: relative;
-    z-index: 2;
-    width: 1361px;
+    z-index: 9;
+    width: 97%;
     height: 169px;
+    gap: 45px;
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
 }
 
 .contact_2{
-    width: 652px;
+    width: 50%;
     height: 169px;
-
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
+
+.contact_3{
+    width: 664px;
+    height: 169px;
+    padding: 27px 6.61px 6.61px 23.79px;
+    gap: 6.61px;
+    border-radius: 21px 21px 21px 21px;
+    border: 1.32px 0px 0px 0px;
+    opacity: 0px;    
+    display: flex;
+    align-items: flex-start;
+}
+
 
 
 .form-control {
     width: 316px; /* Fixed width */
     height: 62px; /* Fixed height */
-    padding: 16px 6.61px 16px 23.79px; /* Padding */
     gap: 6.61px; /* Note: 'gap' does not apply to input elements */
     border-radius: 21px 0 0 0; /* Rounded corners */
     border: 1.32px solid transparent; /* Border color and width */
@@ -467,6 +487,219 @@ height: 48px;
     position: relative; /* Ensures proper positioning for children */
 }
 
+
+/* input field style  */
+.mat-form-field {
+    width: 316px;
+    height: 62px; 
+    padding: 16px 6.61px 16px 23.79px;
+    border-radius: 21px 21px 21px 21px;
+    border: 1.32px solid #AEBED7; /* Change border color based on state */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 6.61px;
+}
+
+.emailField{
+    width: 100%;
+    height: 62px; 
+    padding: 16px 6.61px 16px 23.79px;
+    border-radius: 21px 21px 21px 21px;
+    border: 1.32px solid #AEBED7; /* Change border color based on state */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 6.61px;
+}
+
+.textarea{
+    width: 100%;
+    height: 100%; 
+    padding: 16px 6.61px 16px 23.79px;
+    border-radius: 21px 21px 21px 21px;
+    border: 1.32px solid #AEBED7; /* Change border color based on state */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 6.61px;
+}
+
+.mat-label {
+    position: absolute;
+    top: -10px;
+    left: 23.79px;
+    font-size: 14px;
+    color: #999; /* Light color for the label */
+    transition: all 0.2s ease-in-out;
+}
+
+.mat-input {
+    width: 100%;
+    height: 100%;
+    border: none; /* Remove default border */
+    outline: none; /* Remove outline on focus */
+    font-size: 16px; /* Set input font size */
+    border-radius: 21px; /* Match field border radius */
+    background: transparent; /* Make background transparent */
+    color: #FFFFFF;
+}
+
+
+.mat-input::placeholder {
+    color: #FFFFFF; /* Placeholder color */
+    opacity: 1; /* Ensure the placeholder is visible */
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+
+.mat-input1 {
+    width: 100%;
+    height: 100%;
+    border: none; /* Remove default border */
+    outline: none; /* Remove outline on focus */
+    font-size: 16px; /* Set input font size */
+    border-radius: 21px; /* Match field border radius */
+    background: transparent; /* Make background transparent */
+    color: #FFFFFF;
+    position: relative;
+    top: -3rem;
+}
+.mat-input1::placeholder {
+    color: #FFFFFF; /* Placeholder color */
+    opacity: 1; /* Ensure the placeholder is visible */
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+   
+}
+
+.mat-input1:focus + .mat-label,
+.mat-input1:not(:placeholder-shown) + .mat-label {
+    top: -10px; /* Move label up */
+    left: 10px; /* Keep left space */
+    font-size: 14px; /* Smaller font size */
+    color: #FFFFFF; /* Change label color on focus */
+}
+
+.mat-input:focus + .mat-label,
+.mat-input:not(:placeholder-shown) + .mat-label {
+    top: -18px;
+    left: 23.79px;
+    font-size: 12px;
+    color: #6200ea; /* Color change for active state */
+}
+
+
+.msgBtn{
+width: 311px;
+height: 50px;
+top: 4413px;
+left: 1320px;
+padding: 5px 10px 5px 16px;
+border: none;
+border-radius: 99px 99px 99px 99px;
+opacity: 0px;
+display: flex;
+justify-content: center;
+text-align: center ;
+background-color: #006FFF;
+color: #FFFFFF;
+}
+
+/* end */
+
+
+/* footer style */
+.main{
+    width: 1933px;
+}
+.asd {
+    position: absolute;
+    z-index: 5;
+    width: 2302.74px;
+    height: 480.98px;
+    border: 0.46px 0px 0px 0px;
+    background-image: url(./images/asd1.png);
+    /* background-repeat: repeat-x; */
+    /* background-size: cover; */
+    opacity: 1;
+    /* right: 0rem; */
+    bottom: 22rem;
+}
+
+.footer {
+    max-width: 1933px; /* Set a max width for the footer */
+    margin: 0 auto; /* Center the footer horizontally */
+    background-image: url(./images/footer.png);
+    /* background-size: contain; */
+    padding: 20px;
+    background-repeat: no-repeat;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    opacity: 1; /* Set opacity to 1 for visibility */
+    position: relative;
+    z-index: 4;
+    height: 516px;
+}
+
+.footer_1{
+    width: 565px;
+    height: 107px;  
+    margin-top: 12rem;
+    margin-left: 199px;
+}
+
+.footer_2{
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+}
+
+.footer_3{
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29.25px;
+    text-align: left;
+    color: #475569;
+}
+
+.footerLogo{
+    width: 301px;
+    height: 301px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.footerLine{
+    width: 1933px !important;
+    background-color: #ddebfb;
+    position: relative;
+    top: 69px;
+    left: -20px;
+    gap: 0px;
+    opacity: 0px;
+    color: #9EC8FF4D;
+}
+
+.socialIcon{
+
+    width: 410.59px;
+    height: 40.8px;
+    padding: 6px 0px 6.8px 0px;
+    position: relative;
+    left:199px;
+    gap: 18px;
+
+}
 /* Make it responsive */
 @media (max-width: 768px) {
     .container {

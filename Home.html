@@ -25,7 +25,7 @@
                         <img src="./images/Vector.png" alt="Vector Icon" />
                     </span>
                 </div>
-                <button class="startBtn d-flex align-items-center" style="width: 144px;">
+                <button class="startBtn d-flex align-items-center" style="width: 148px;">
                     <span class="startText">Get Started</span>
                     <span class="d-flex align-items-center">
                         <img src="./images/SVG_margin.png" alt="SVG Icon" />
@@ -55,7 +55,7 @@
                     <p class="real_4">
                         Our mission is to create a real world use-case on the Ethereum blockchain by tokenizing the real-estate value in forms of a deflationary crypto token. All profits will be used to burn tokens from the open market.
                     </p>
-                    <button class="startBtn_2 d-flex align-items-center">
+                    <button class="startBtn_2 d-flex align-items-center" style="width: 144px;">
                         <span class="startText">Get Started</span>
                         <span class="d-flex align-items-center">
                             <img src="./images/SVG_margin.png" alt="SVG Icon" />
@@ -282,36 +282,115 @@
             </div>
         </div>
     </section>
-
+      <!-- Contact Us  -->
     <section id="contact" class="bg-light py-5" style="margin-top: 6rem;">
-        <div class="container contact_image">
+        <div class="container contact_image" >
             <div class="contact_0 mt-5">
                 Contact Us
             </div>
             <div class="contact_1">
                 <div class="contact_2">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    <div class="d-flex" style="gap: 20px;">
+                        <div class="form-group mat-form-field">
+                            <input type="name" class="mat-input" id="firstName" aria-describedby="firstName" placeholder="First Name">
+                        </div>
+                        <div class="form-group mat-form-field">
+                            <input type="name" class="mat-input" id="lastName" aria-describedby="lastName" placeholder="Last Name">
+                        </div>                          
                     </div>
+                    <div class="form-group emailField mt-4">
+                        <input type="email" class="mat-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>   
                 </div>
-                <div class="contact_3">
-
+                <div class="contact_3 textarea form-group"  style="border:0.1px solid #AEBED7">
+                        <input type="email" class="mat-input1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Please drop a message">
                 </div>
+            </div>
+            <div class="d-flex justify-content-end mt-5" style="width: 97%;position: relative; z-index:3">
+                <button class="msgBtn d-flex align-items-center">
+                    <span class="startText">Send Message</span>
+                    <span class="d-flex align-items-center">
+                        <img src="./images/SVG_margin.png" alt="SVG Icon" />
+                    </span>
+                </button>
             </div>
         </div>
     </section>
-
-
+    
+    
     <!-- Footer Section -->
-    <footer class="bg-light py-3">
-        <div class="container text-center">
-            <p>&copy; 2024 Your Brand Name. All rights reserved.</p>
-            <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="#privacy">Privacy Policy</a></li>
-                <li class="nav-item"><a class="nav-link" href="#terms">Terms of Service</a></li>
-            </ul>
+     
+    <footer class="bg-light ">
+        
+        <div class=" text-center flex-wrap footer ">
+            <div class="asd"></div> <!-- Background image will be placed here -->
+            <div class="d-flex ">
+            <div class="d-flex footer_1">
+                <span class="d-flex flex-column">
+                    <span class="d-flex footer_2">
+                        Headquarters
+                    </span>
+                    <span class="d-flex flex-wrap footer_3" style="width: 255px;height: 59px;">
+                        Mailing Addressxx00 E. Union Ave
+                        Suite 1100. Denver, CO 80237
+                    </span>
+                </span>
+                <span class="d-flex flex-wrap " style="width: 255px;height: 59px;">
+                    <span class="d-flex footer_2">
+                        Branch office
+                    </span>
+                    <span class="d-flex footer_3">
+                        Mailing Addressxx00 E. Union Ave
+                        Suite 1100. Denver, CO 80237
+                    </span>
+                </span> 
+            </div>
+            
+            <span class="d-flex footerLogo">
+                <img src="./images/footerLogo.png" />
+            </span>
+
+            <div class="d-flex footer_1">
+                <span class="d-flex flex-column">
+                    <span class="d-flex footer_2">
+                        Products
+                    </span>
+                    <span class="d-flex flex-wrap footer_3" style="width:255px;height:59px">
+                        Tokenization protocol<br>
+                        White-label platform
+                    </span>
+                </span>
+                <span class="d-flex flex-column">
+                    <span class="d-flex footer_2">
+                        Learn
+                    </span>
+                    <span class="d-flex flex-wrap footer_3" style="width: 93px;height: 117px;">
+                        Tokenization
+                        Blockchain
+                        Company
+                        Newsroom
+                    </span>
+                </span> 
+            </div>
+        </div>
+        <div class="footerLine">
+            <img src="./images/footerLine.png" />
+            <span class="d-flex justify-content-between  ">
+
+                <div class="socialIcon">
+                    <a href="#"><img src="./images/email.png"/></a>
+                    <a href="#"><img src="./images/facebook.png"/></a>
+                    <a href="#"><img src="./images/twittwe.png"/></a>
+                    <a href="#"><img src="./images/telegram.png"/></a>
+                    <a href="#"><img src="./images/asf.png"/></a>
+                    <a href="#"><img src="./images/discord.png"/></a>
+                    <a href="#"><img src="./images/linkedIn.png"/></a>
+                </div>
+                <div class="" style="position: relative; right: 199px;color: #475569;">
+                    <p>&copy; 2024 real.io | All rights reserved.</p>
+                </div>
+            </span>
+        </div>
         </div>
     </footer>
 
