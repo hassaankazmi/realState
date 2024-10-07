@@ -88,6 +88,26 @@ p{
     cursor: pointer;
 }
 
+.startBtn_3 {
+    background: #006FFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px; /* Adjust padding */
+    display: flex;
+    align-items: center;
+    width: 148px;
+    height: 34px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
+        "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
 .startText {
     margin-right: 5px; /* Space between text and icon */
 }
@@ -203,6 +223,15 @@ p{
     font-weight: 600;
     line-height: 48px;
     text-align: center;    
+}
+
+.aboutTitle{
+    width: 692.4px;
+    height: 443.6px;
+    top: 251px;
+    left: 199px;
+    gap: 0px;
+    opacity: 0px;
 }
 
 .about_desc{
@@ -764,6 +793,14 @@ color: #FFFFFF;
         opacity: 0px;
     }
 
+    .aboutTitle {
+        width: 692.4px;
+        height: 530.6px !important;
+        top: 251px;
+        left: 199px;
+        gap: 0px;
+        opacity: 0px;
+    }
     .about_2 {
         font-family: Lato;
         font-size: 15.88px;
@@ -861,6 +898,7 @@ color: #FFFFFF;
     }
 }
 
+
 /* Mobile View */
 @media (max-width: 576px) {
 
@@ -883,6 +921,10 @@ color: #FFFFFF;
     .whitepaper {
         padding: 0 8px;
         font-size: 14px;
+    }
+    
+    .startBtn{
+        width: 140px;
     }
     
     .EN {
@@ -938,6 +980,31 @@ color: #FFFFFF;
         top: 22rem !important;
         width: 100% !important;
         height: auto !important;
+    }
+
+    .aboutTitle {
+        width: 94%;
+        align-items: center;
+        height: 36vh !important;
+    }
+    img.about {
+        width: 95%;
+    }
+    .about_desc {
+        width: 22rem;
+        height: 379px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about_1{
+    position: relative;
+    top: 1.5rem;        
+    }
+
+    .startBtn_3{
+        position: relative;
+        top: 5rem;
     }
 
     .gover_title{
