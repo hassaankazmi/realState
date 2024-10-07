@@ -899,26 +899,40 @@ color: #FFFFFF;
 
     .real_1{
         font-size: 44px;
+        width: 23rem;
     }
 
     .real_2 {
         font-size: 25.6px;
-        width: 73%;
+        width: 91%;
     }
     
     .real_3{
-    font-size: 21.8px;
+    font-size: 18.8px;
+    width: 22rem;    
     }
    
     .real_4 {
-        width: 390.4px;
+        width: 23rem;
     }
 
     .startBtn_2 {
-        width: 120px;
+        width: 113px;
         height: 30px;
         font-size: 11px;
         margin-top: 3rem;
+    }
+
+    .hero_title {
+        width: 22rem;
+    }
+
+    .gif{
+        position: absolute !important;
+        z-index: -1 !important;
+        top: 22rem !important;
+        width: 100% !important;
+        height: auto !important;
     }
 
     .gover_title{
