@@ -405,6 +405,12 @@ text-align: center;
 height: 48px;
 }
 
+
+.gover_main{
+    width: 732px;
+    height: 379px;
+    justify-content: center !important;
+}
 .community_paragraph{
     width: 486px;
     height: 180px;
@@ -813,7 +819,15 @@ color: #FFFFFF;
     }
     .governance{
         margin-top: 7rem !important;
+       display: flex;
+       align-items: center !important;
     }
+
+    .gover_img{
+        width: 408px;
+        height: 334.69px;
+    }
+
 
     .contact_image{
         margin-top: 8rem !important;
@@ -870,12 +884,6 @@ color: #FFFFFF;
         font-size: 12px;
     }
     
-    .startBtn {
-        width: 120px;
-        height: 30px;
-        font-size: 11px;
-    }
-    
     /* Stack elements vertically */
     .getStarted > * {
         margin-bottom: 10px;
@@ -889,34 +897,35 @@ color: #FFFFFF;
         width: 100% ;
     }
 
+    .real_1{
+        font-size: 44px;
+    }
+
     .real_2 {
-        width: 514.4px !important;
+        font-size: 25.6px;
+        width: 73%;
     }
     
-
-    .about_desc {
-        width: 732px;
-        height: 379px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        position: relative;
-        bottom: 6rem;
+    .real_3{
+    font-size: 21.8px;
+    }
+   
+    .real_4 {
+        width: 390.4px;
     }
 
-    .hero_title{
-        width: 80%;
-        height: 162vh !important;
+    .startBtn_2 {
+        width: 120px;
+        height: 30px;
+        font-size: 11px;
+        margin-top: 3rem;
     }
 
-    .aboutMain{
-        align-items: center;
+    .gover_title{
+        /* width: 80%;
+        height: 162vh !important; */
     }
-
-    .about_2{
-        text-align: center;
-    }
+    
     .token_1 {
         width: 100% !important;
         text-align: center;
@@ -971,20 +980,23 @@ color: #FFFFFF;
 
     }
 
-    .real{
-        width: 484.4px;
+    .gover_img {
+        width: 50% !important;
+        height: 30vh !important;
     }
 
-    .real_4 {
-        width: 485.4px;
+    .gover_main{
+        width: 732px;
+        height: 379px;
+        justify-content: start !important;
     }
-
-    .aboutContainer_{
-        padding-top: 10rem !important;
+    .community_1{
+        width: 450px !important;
     }
+}
 
-
-
+.community_1{
+    width:648px;
 }
 
 @media (min-width: 992px) {
