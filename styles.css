@@ -863,6 +863,11 @@ color: #FFFFFF;
 
 /* Mobile View */
 @media (max-width: 576px) {
+
+    .container{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
     .header {
         padding: 10px 0;
     }
