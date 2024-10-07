@@ -92,67 +92,6 @@ p{
     margin-right: 5px; /* Space between text and icon */
 }
 
-/* Responsive Styles */
-
-/* Tablet View */
-@media (max-width: 992px) {
-    .logo {
-        max-width: 120px;
-    }
-    
-    .whitepaper {
-        font-size: 15px;
-    }
-    
-    .EN {
-        font-size: 13px;
-    }
-    
-    .startBtn {
-        width: 130px;
-        height: 32px;
-        font-size: 15px;
-    }
-}
-
-/* Mobile View */
-@media (max-width: 576px) {
-    .header {
-        padding: 10px 0;
-    }
-    
-    .logo {
-        max-width: 100px;
-    }
-    
-    .getStarted {
-        justify-content: center;
-    }
-    
-    .whitepaper {
-        padding: 0 8px;
-        font-size: 14px;
-    }
-    
-    .EN {
-        font-size: 12px;
-    }
-    
-    .startBtn {
-        width: 120px;
-        height: 30px;
-        font-size: 14px;
-    }
-    
-    /* Stack elements vertically */
-    .getStarted > * {
-        margin-bottom: 10px;
-    }
-    
-    .darkTheme {
-        margin-left: 0 !important;
-    }
-}
 
 .hero_title{
     width: 692.4px;
@@ -759,13 +698,13 @@ color: #FFFFFF;
 }
 
 .footerLine{
-    width: 1933px !important;
+    /* width: 1933px !important;
     background-color: #ddebfb;
     position: relative;
     top: 69px;
     left: -20px;
     gap: 0px;
-    opacity: 0px;
+    opacity: 0px; */
     color: #9EC8FF4D;
 }
 
@@ -780,17 +719,276 @@ color: #FFFFFF;
 
 }
 /* Make it responsive */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column; /* Stack items on smaller screens */
-        align-items: center; /* Center align items */
-    }
+/* Responsive Styles */
 
-    .getStarted {
-        margin-top: 10px; /* Space between logo and buttons */
+/* Tablet View */
+@media (max-width: 992px) {
+    .logo {
+        max-width: 120px;
     }
-
+    
     .whitepaper {
-        margin-bottom: 5px; /* Adjust margin for stacked layout */
+        font-size: 15px;
     }
+    
+    .EN {
+        font-size: 13px;
+    }
+    
+    .startBtn {
+        /* width: 130px; */
+        height: 32px;
+        font-size: 15px;
+    }
+    .gif{
+        position: absolute;
+        z-index: -1;
+    }
+
+    .aboutMain{
+        flex-direction: column;
+    }
+
+    .hero_title {
+        width: 692.4px;
+        height: 530.6px !important;
+        top: 251px;
+        left: 199px;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+    .about_2 {
+        font-family: Lato;
+        font-size: 15.88px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #737373;
+        width: 619px !important;
+        height: 120px;
+    }
+
+    .token_1{
+        width: 753px !important;
+    }
+
+    .tokenImg{
+        display: none !important;
+    }
+
+    .card_3 {
+        width: 321px;
+    }
+
+    .card_2{
+        font-size: 14px !important;
+    }
+
+    .card_6 {
+        width: 336px;
+    }
+
+    .card_7 {
+        width: 436px !important;
+    }
+
+    .card_{
+        margin-top: 35px !important;
+    }
+
+    .tokenomicSection{
+        flex-direction: column !important;
+    }
+    .tokenomic_img{
+        margin-top: 4rem !important;
+    }
+
+    .title {
+        font-size: 30px !important;
+    }
+
+    .comuunity{
+        flex-direction: column !important;
+    }
+    .governance{
+        margin-top: 7rem !important;
+    }
+
+    .contact_image{
+        margin-top: 8rem !important;
+    }
+
+    .contact_1{
+        flex-direction: column !important;
+    }
+
+    .two_field{
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    .contact_2{
+        width: 100% !important;
+    }
+    .contact_image{
+        height: 700px !important;
+    }
+
+    .textarea{
+        margin-top: 79px !important;
+        width: 100% !important;
+    }
+
+    .msgBtn{
+        margin-top: 17rem;
+        width: 15rem;
+        height: 40px;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 576px) {
+    .header {
+        padding: 10px 0;
+    }
+    
+    .logo {
+        max-width: 100px;
+    }
+    
+    .getStarted {
+        justify-content: center;
+    }
+    
+    .whitepaper {
+        padding: 0 8px;
+        font-size: 14px;
+    }
+    
+    .EN {
+        font-size: 12px;
+    }
+    
+    .startBtn {
+        width: 120px;
+        height: 30px;
+        font-size: 11px;
+    }
+    
+    /* Stack elements vertically */
+    .getStarted > * {
+        margin-bottom: 10px;
+    }
+    
+    .darkTheme {
+        margin-left: 0 !important;
+    }
+
+    .mat-form-field{
+        width: 100% ;
+    }
+
+    .real_2 {
+        width: 514.4px !important;
+    }
+    
+
+    .about_desc {
+        width: 732px;
+        height: 379px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        position: relative;
+        bottom: 6rem;
+    }
+
+    .hero_title{
+        width: 80%;
+        height: 162vh !important;
+    }
+
+    .aboutMain{
+        align-items: center;
+    }
+
+    .about_2{
+        text-align: center;
+    }
+    .token_1 {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .token_title{
+        font-weight: 600;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .card_{
+        align-items: center;
+    }
+
+    .card_1{
+        justify-content: center;
+
+    }
+
+    .card_3{
+        display: flex;
+        text-align: center;
+        width: 100%;
+    }
+
+    .card_5{
+        display: flex;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .card_6{
+        display: flex;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .card_7{
+        display: flex;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .card_8{
+        display: flex;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .real{
+        width: 484.4px;
+    }
+
+    .real_4 {
+        width: 485.4px;
+    }
+
+    .aboutContainer_{
+        padding-top: 10rem !important;
+    }
+
+
+
+}
+
+@media (min-width: 992px) {
+.tokenImg{
+    display: flex;
+}
 }

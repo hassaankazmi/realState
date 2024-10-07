@@ -12,7 +12,7 @@
 <body>
 
     <!-- Header Section -->
-    <header class="backgroundImage bg-light header py-3">
+    <header class=" bg-light header py-3">
         <div class="container d-flex justify-content-between align-items-center flex-wrap">
             <!-- Logo -->
             <a href="#" class="d-flex align-items-center mb-2 mb-md-0">
@@ -43,7 +43,7 @@
     
 
     <!-- Hero Section -->
-    <section id="hero" class="backgroundImage text-center text-gray py-5">
+    <section id="hero" class=" text-center text-gray py-5">
         <div class="container">
             <div class="d-flex w-100 justify-content-between col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12">
                 <div class="d-flex flex-column hero_title">
@@ -77,9 +77,9 @@
 
     <!-- About Section -->
     <section id="about" class="bg-light py-5">
-        <div class="container">
+        <div class="container aboutContainer_">
             <p class="d-flex justify-content-center about_title">About Us</p>
-            <div class="d-flex w-100 justify-content-between col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div class="d-flex aboutMain w-100 justify-content-between col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12">
                 <div class="d-flex flex-column hero_title">
                     <img class="about" src="./images/about.png" />
                 </div>
@@ -115,12 +115,12 @@
                     <p class="token_1">Welcome to REAL's commitment to transparency, community, and innovation in blockchain. At REAL, we're dedicated to building a vibrant community around our
                         project, driven by transparency and active participation.</p>
                 </span>
-                <span class="d-flex tokenImg">
+                <span class="tokenImg">
                     <img src="./images/tokenimg.png" />
                 </span>
         </span>
             <div class="row">
-                <div class="col-12 col-xl-4 col-lg-4 col-sm-6 col-md-4">
+                <div class="col-12 col-xl-4 col-lg-4 col-sm-12 col-md-6">
                     <div class="card_">
                         <div class="d-flex card_1">
                             <div class="card_4">
@@ -135,7 +135,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-xl-4 col-lg-4 col-sm-6 col-md-4">
+                <div class="col-12 col-xl-4 col-lg-4 col-sm-12 col-md-6">
                     <div class="card_">
                         <div class="d-flex card_1">
                             <div class="card_4">
@@ -150,7 +150,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-xl-4 col-lg-4 col-sm-6 col-md-4">
+                <div class="col-12 col-xl-4 col-lg-4 col-sm-12 col-md-6">
                     <div class="card_">
                         <div class="d-flex card_1">
                             <div class="card_4">
@@ -203,7 +203,7 @@
     <!-- Tokenomics Section -->
     <section id="tokenomics" class="text-center py-5">
         <div class="container">
-            <span class="d-flex align-items-center">
+            <span class="d-flex tokenomicSection align-items-center">
                 <span class="d-flex flex-column token_main">
                     <p class="token_title">TOKENOMICS</p>
                     <p class="tokenmics_title">
@@ -254,7 +254,7 @@
             <div class="title">
                 <p class="d-flex justify-content-center ">Community and Governance</p>
             </div>
-            <div class="d-flex w-100 mt-5 justify-content-between col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div class="d-flex w-100 mt-5 comuunity justify-content-between col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12">
                 <div class="d-flex flex-column hero_title align-items-center ">
                     <img class="about" src="./images/communi.png" />
                         <p class="about_1 d-flex justify-content-center">Who we are?</p> 
@@ -270,7 +270,7 @@
                         </button>
                 </div>
                 <div class="about_desc d-flex justify-content-center  ">
-                    <div class="d-flex flex-column hero_title align-items-center ">
+                    <div class="d-flex flex-column governance hero_title align-items-center ">
                         <img  style="width: 408px;height: 334.69px;" class="about" src="./images/gover.png" />
                         <p class="about_1 d-flex justify-content-center">GOVERNANCE</p> 
                         <p class="community_1" style="width:648px;">
@@ -296,19 +296,19 @@
             </div>
             <div class="contact_1">
                 <div class="contact_2">
-                    <div class="d-flex" style="gap: 20px;">
-                        <div class="form-group mat-form-field">
+                    <div class="d-flex two_field" style="gap: 20px;">
+                        <div class="form-group mat-form-field col-xl-6 col-md-12 col-sm-12">
                             <input type="name" class="mat-input" id="firstName" aria-describedby="firstName" placeholder="First Name">
                         </div>
-                        <div class="form-group mat-form-field">
+                        <div class="form-group mat-form-field col-xl-6 col-md-12 col-sm-12">
                             <input type="name" class="mat-input" id="lastName" aria-describedby="lastName" placeholder="Last Name">
                         </div>                          
                     </div>
-                    <div class="form-group emailField mt-4">
+                    <div class="form-group emailField mt-4 col-xl-12 col-md-12 col-sm-12">
                         <input type="email" class="mat-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                     </div>   
                 </div>
-                <div class="contact_3 textarea form-group"  style="border:0.1px solid #AEBED7">
+                <div class="contact_3 textarea form-group col-xl-6 col-md-12 col-sm-12"  style="border:0.1px solid #AEBED7">
                         <input type="email" class="mat-input1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Please drop a message">
                 </div>
             </div>
@@ -326,10 +326,10 @@
     
     <!-- Footer Section -->
      
-    <footer class="bg-light ">
+    <!-- <footer class="bg-light ">
         
         <div class=" text-center flex-wrap footer ">
-            <div class="asd"></div> <!-- Background image will be placed here -->
+            <div class="asd"></div> 
             <div class="d-flex ">
             <div class="d-flex footer_1">
                 <span class="d-flex flex-column">
@@ -398,7 +398,7 @@
             </span>
         </div>
         </div>
-    </footer>
+    </footer> -->
 
     <!-- Bootstrap JS (optional) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
