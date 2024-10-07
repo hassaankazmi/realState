@@ -926,7 +926,7 @@ color: #FFFFFF;
     .startBtn{
         width: 140px;
     }
-    
+
     .EN {
         font-size: 12px;
     }
@@ -945,22 +945,26 @@ color: #FFFFFF;
     }
 
     .real_1{
-        font-size: 44px;
-        width: 23rem;
+        font-size: 38px;
+        width: 22rem;
+        margin-left: 1rem !important;
     }
 
     .real_2 {
         font-size: 25.6px;
         width: 91%;
+        margin-left: 1rem !important;
     }
     
     .real_3{
-    font-size: 18.8px;
-    width: 22rem;    
+        font-size: 18.8px;
+        width: 22rem;   
+        margin-left: 1rem !important;
     }
    
     .real_4 {
-        width: 23rem;
+        width: 21rem;
+        margin-left: 1rem !important;
     }
 
     .startBtn_2 {
@@ -968,6 +972,7 @@ color: #FFFFFF;
         height: 30px;
         font-size: 11px;
         margin-top: 3rem;
+        margin-left: 1rem !important;
     }
 
     .hero_title {
@@ -997,71 +1002,86 @@ color: #FFFFFF;
         flex-wrap: wrap;
     }
 
+    .aboutContainer_{
+        height: 113vh;
+    }
     .about_1{
     position: relative;
-    top: 1.5rem;        
+    top: 1.5rem;    
+    margin-left: 1rem !important;
+    }
+
+    .about_2{
+        margin-left: 1rem !important;
     }
 
     .startBtn_3{
         position: relative;
         top: 5rem;
+        margin-left: 1rem;
     }
 
-    .gover_title{
-        /* width: 80%;
-        height: 162vh !important; */
+    .token_main {
+        margin-top: 30px;
+        width: 94%;
     }
-    
-    .token_1 {
-        width: 100% !important;
-        text-align: center;
+
+    .tokenImg{
+        display: none;
     }
 
     .token_title{
-        font-weight: 600;
-        font-size: 35px;
+        width: 100%;
+        font-size: 25px;
+        font-weight: 700;
         text-align: center;
+
     }
 
-    .card_{
-        align-items: center;
+    .token_1 {
+        width: 100% !important;
+        margin-left: 1rem !important;
+    }
+
+    .row{
+        margin-top: 3rem !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .card_ {
+        width: 94%;
+        margin-top: 3rem;
     }
 
     .card_1{
-        justify-content: center;
-
+        width: 100% !important;
     }
-
     .card_3{
         display: flex;
-        text-align: center;
         width: 100%;
     }
 
     .card_5{
         display: flex;
-        text-align: center;
         width: 100%;
 
     }
 
     .card_6{
         display: flex;
-        text-align: center;
         width: 100%;
 
     }
 
     .card_7{
         display: flex;
-        text-align: center;
-        width: 100%;
+        width: 100% !important;
 
     }
 
     .card_8{
         display: flex;
-        text-align: center;
         width: 100%;
 
     }
