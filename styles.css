@@ -956,24 +956,24 @@ color: #FFFFFF;
     .real_1{
         font-size: 38px;
         width: 22rem;
-        /* margin-left: 1rem !important; */
+        margin-left: 1rem !important;
     }
 
     .real_2 {
         font-size: 25.6px;
         width: 91%;
-        /* margin-left: 1rem !important; */
+        margin-left: 1rem !important;
     }
     
     .real_3{
         font-size: 18.8px;
         width: 22rem;   
-        /* margin-left: 1rem !important; */
+        margin-left: 1rem !important;
     }
    
     .real_4 {
         width: 21rem;
-        /* margin-left: 1rem !important; */
+        margin-left: 1rem !important;
     }
 
     .startBtn_2 {
@@ -981,7 +981,7 @@ color: #FFFFFF;
         height: 30px;
         font-size: 11px;
         margin-top: 3rem;
-        /* margin-left: 1rem !important; */
+        margin-left: 1rem !important;
     }
 
     .hero_title {
@@ -1017,11 +1017,11 @@ color: #FFFFFF;
     .about_1{
     position: relative;
     top: 1.5rem;    
-    /* margin-left: 1rem !important; */
+    margin-left: 1rem !important;
     }
 
     .about_2{
-        /* margin-left: 1rem !important; */
+        margin-left: 1rem !important;
     }
 
     .startBtn_3{
@@ -1051,7 +1051,7 @@ color: #FFFFFF;
 
     .token_1 {
         width: 100% !important;
-        /* margin-left: 1rem !important; */
+        margin-left: 1rem !important;
     }
 
     .row{
@@ -1112,13 +1112,13 @@ color: #FFFFFF;
     .tokenomic_1{
         position: unset !important;
         width: 100% !important;
-        /* margin-left: 1rem !important; */
+        margin-left: 1rem !important;
 
     }
 
     .tokenomic_4{
         position: unset !important;
-        /* margin-left: 1rem !important; */
+        margin-left: 1rem !important;
         width: 100% !important;
     }
 
