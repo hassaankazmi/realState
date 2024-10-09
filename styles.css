@@ -203,7 +203,7 @@ p{
 }
 
 .gif{
-    width: 499px;
+    width: 100%;
     height: 501px;
 }
 
@@ -475,7 +475,7 @@ height: 48px;
     background-image: url('./images/contact.png');
     background-size: cover; /* Make sure the contact image covers the container */
     height: 464px;
-    border-radius: 40px;
+    border-radius: 80px;
     overflow: hidden; /* Ensure no overflow of ball image */
 }
 
@@ -696,7 +696,7 @@ color: #FFFFFF;
 }
 
 .footer {
-    max-width: 1933px; /* Set a max width for the footer */
+    max-width: 1933px !important; /* Set a max width for the footer */
     margin: 0 auto; /* Center the footer horizontally */
     background-image: url(./images/footer.png);
     /* background-size: contain; */
@@ -715,6 +715,7 @@ color: #FFFFFF;
     height: 107px;  
     margin-top: 12rem;
     margin-left: 199px;
+    display: flex;
 }
 
 .footer_2{
@@ -787,6 +788,7 @@ color: #FFFFFF;
     .gif{
         position: absolute;
         z-index: -1;
+        width: 100% !important;
     }
 
     .aboutMain{
@@ -803,7 +805,7 @@ color: #FFFFFF;
     }
 
     .aboutTitle {
-        width: 692.4px;
+        width: 100%;
         height: 530.6px !important;
         top: 251px;
         left: 199px;
@@ -822,7 +824,7 @@ color: #FFFFFF;
     }
 
     .token_1{
-        width: 753px !important;
+        width: 100% !important;
     }
 
     .tokenImg{
@@ -905,6 +907,76 @@ color: #FFFFFF;
         width: 15rem;
         height: 40px;
     }
+
+    .footer{
+        padding: 0 !important;
+        max-width: 100%;
+        /* height: 400px; */
+    }
+
+    .socialIcon{
+        position: relative;
+        top: 3rem;
+    }
+
+    .footer_1 {
+        width: 100%;
+        margin-top: 12rem;
+        margin-left: 0;
+        flex-direction: column;
+        margin-top: 8rem;
+        padding-left: 1rem;
+    }
+
+    .footer_2{
+        font-size: 14px !important;
+    }
+
+    .footer_3{
+        font-size: 11px !important;
+        width: 68%;
+    }
+    .asd{
+        width: 100% !important;
+    }
+    .footerLogo {
+        width: 100%;
+        height: 15vh;
+        /* gap: 0px; */
+        opacity: 0px;
+        position: relative;
+        /* right: 10rem; */
+        top: 12rem;
+        justify-content: center;
+
+    }
+
+    .socialIcon{
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 6rem;
+        text-align: start;
+    }
+
+    .copyright{
+        position: relative;
+        width: 100%;
+        right: 0 !important;
+        color: #475569;
+        text-align: center;
+        top: 3rem;
+    }
+
+    .footerLine{
+        display: none !important;
+    }
+
+    .footer_5{
+        position: relative;
+        top: 5rem;
+        width: 100%;
+    }
 }
 
 
@@ -920,7 +992,8 @@ color: #FFFFFF;
     }
     
     .logo {
-        max-width: 100px;
+        max-width: 60% !important;
+        padding-left: 1rem;
     }
     
     .getStarted {
@@ -981,7 +1054,7 @@ color: #FFFFFF;
         height: 30px;
         font-size: 11px;
         margin-top: 3rem;
-        padding-left: 1rem !important;
+        margin-left: 1rem !important;
     }
 
     .hero_title {
@@ -991,7 +1064,7 @@ color: #FFFFFF;
     .gif{
         position: absolute !important;
         z-index: -1 !important;
-        top: 22rem !important;
+        top: 9rem !important;
         width: 100% !important;
         height: auto !important;
     }
@@ -1105,8 +1178,9 @@ color: #FFFFFF;
     
 
     .tokenImg_{
-        width: 100% !important;
+        width: 70% !important;
         height: auto !important;
+        margin-top: 1rem;
     }
 
     .tokenomic_1{
@@ -1139,6 +1213,86 @@ color: #FFFFFF;
     .community_1{
         width: 450px !important;
     }
+    
+    .desktopHeader{
+        display: none !important;
+    }
+
+    .footer{
+        padding: 0 !important;
+        max-width: 100%;
+        /* height: 400px; */
+    }
+
+    .socialIcon{
+        position: relative;
+        top: 3rem;
+    }
+
+    .footer_1 {
+        width: 100%;
+        margin-top: 12rem;
+        margin-left: 0;
+        flex-direction: column;
+        margin-top: 8rem;
+        padding-left: 1rem;
+    }
+
+    .footer_2{
+        font-size: 14px !important;
+    }
+
+    .footer_3{
+        font-size: 11px !important;
+        width: 68%;
+    }
+    .asd{
+        width: 100% !important;
+    }
+    .footerLogo {
+        width: 100%;
+        height: 15vh;
+        /* gap: 0px; */
+        opacity: 0px;
+        position: relative;
+        /* right: 10rem; */
+        top: 9rem;
+
+    }
+
+    .footer_4{
+        display: none !important;
+    }
+
+    .socialIcon{
+        width: 100%;
+        position: relative;
+        left: 0;
+        text-align: start;
+    }
+
+    .copyright{
+        position: relative;
+        width: 100%;
+        right: 0 !important;
+        color: #475569;
+        text-align: center;
+    }
+
+    .footerLine{
+        display: none !important;
+    }
+
+    .footer_4{
+        display: none ;
+    }
+
+    
+    .msgBtn{
+        margin-top: 15rem;
+        width: 15rem;
+        height: 40px;
+    }
 }
 
 .community_1{
@@ -1149,10 +1303,22 @@ color: #FFFFFF;
 .tokenImg{
     display: flex;
 }
+.hideSocialIcon{
+    display: none;
+}
+.copyright{
+    display: none;
+}
+
 }
 
 @media (min-width:576px){
+  
     .hide_{
+        display: none !important;
+    }
+
+    .pos-f-t{
         display: none !important;
     }
 }
@@ -1167,4 +1333,8 @@ color: #FFFFFF;
     position: relative;
     top: 6rem;
     right: 36rem;
+}
+
+.copyright{
+    position: relative; right: 199px;color: #475569;
 }
