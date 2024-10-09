@@ -69,6 +69,7 @@ p{
 
 /* Start Button Styling */
 .startBtn {
+    margin-top: 1rem;
     background: #006FFF;
     color: #ffffff;
     border: none;
@@ -763,6 +764,8 @@ color: #FFFFFF;
     gap: 18px;
 
 }
+
+
 /* Make it responsive */
 /* Responsive Styles */
 
@@ -1075,7 +1078,7 @@ color: #FFFFFF;
         height: 36vh !important;
     }
     img.about {
-        width: 95%;
+        width: 58%;
     }
     .about_desc {
         width: 22rem;
@@ -1211,9 +1214,20 @@ color: #FFFFFF;
         justify-content: start !important;
     }
     .community_1{
-        width: 450px !important;
+        width: 100% !important;
     }
     
+    .startBtn{
+        margin-top: 2.5rem;
+    }
+
+    .gover_main{
+        width: 100%;
+    }
+
+    .governance{
+        margin-top: 4rem !important;
+    }
     .desktopHeader{
         display: none !important;
     }
@@ -1267,8 +1281,9 @@ color: #FFFFFF;
     .socialIcon{
         width: 100%;
         position: relative;
-        left: 0;
+        left: 1rem;
         text-align: start;
+        top: 7rem;
     }
 
     .copyright{
@@ -1293,11 +1308,11 @@ color: #FFFFFF;
         width: 15rem;
         height: 40px;
     }
+    .community_1{
+        width:648px;
+    }
 }
 
-.community_1{
-    width:648px;
-}
 
 @media (min-width: 992px) {
 .tokenImg{
@@ -1308,6 +1323,10 @@ color: #FFFFFF;
 }
 .copyright{
     display: none;
+}
+
+.governance{
+    width: 63%;
 }
 
 }
