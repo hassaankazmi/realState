@@ -69,6 +69,27 @@ p{
 
 /* Start Button Styling */
 .startBtn {
+    /* margin-top: 1rem; */
+    background: #006FFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px; /* Adjust padding */
+    display: flex;
+    align-items: center;
+    width: 148px;
+    height: 34px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
+        "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.startBtn_4 {
     margin-top: 1rem;
     background: #006FFF;
     color: #ffffff;
@@ -715,7 +736,7 @@ color: #FFFFFF;
     width: 565px;
     height: 107px;  
     margin-top: 12rem;
-    margin-left: 199px;
+    /* margin-left: 199px; */
     display: flex;
 }
 
@@ -736,11 +757,13 @@ color: #FFFFFF;
     color: #475569;
 }
 
-.footerLogo{
-    width: 301px;
-    height: 301px;
+.footerLogo {
+    width: 100%;
+    height: 50vh;
     gap: 0px;
     opacity: 0px;
+    justify-content: center !important;
+
 }
 
 .footerLine{
@@ -751,9 +774,14 @@ color: #FFFFFF;
     left: -20px;
     gap: 0px;
     opacity: 0px; */
+    width: 100%;
     color: #9EC8FF4D;
 }
 
+.footer_5{
+   
+    align-items: center;
+}
 .socialIcon{
 
     width: 410.59px;
@@ -979,6 +1007,7 @@ color: #FFFFFF;
         position: relative;
         top: 5rem;
         width: 100%;
+        align-items: center;
     }
 }
 
@@ -1045,6 +1074,7 @@ color: #FFFFFF;
         font-size: 18.8px;
         width: 22rem;   
         padding-left: 1rem !important;
+        padding-top:1rem ;
     }
    
     .real_4 {
@@ -1075,7 +1105,7 @@ color: #FFFFFF;
     .aboutTitle {
         width: 94%;
         align-items: center;
-        height: 36vh !important;
+        height: 20vh !important;
     }
     img.about {
         width: 58%;
@@ -1217,7 +1247,7 @@ color: #FFFFFF;
         width: 100% !important;
     }
     
-    .startBtn{
+    .startBtn_4{
         margin-top: 2.5rem;
     }
 
@@ -1310,6 +1340,18 @@ color: #FFFFFF;
     }
     .community_1{
         width:648px;
+    }
+
+    .header{
+        height: 15vh;
+    }
+
+    section#about {
+        padding-bottom: 0 !important;
+    }
+
+    section#tokenCommitment {
+        padding-top: 0 !important;
     }
 }
 
