@@ -57,6 +57,12 @@ p{
     cursor: pointer;
 }
 
+.modal-backdrop.show {
+    opacity: 0.4 !important;
+    position: relative;
+    z-index: -1 !important;
+}
+
 
 
 /* Dark Theme Toggle */
