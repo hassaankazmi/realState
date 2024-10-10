@@ -11,8 +11,9 @@
 </head>
 <body>
 
+    <div class="backgroundImage">
     <!-- Header Section -->
-    <header class=" bg-light header py-3">
+    <header class="  py-3">
         <div class="container header_ d-flex justify-content-between align-items-center flex-wrap">
             <!-- Logo -->
             <a href="#" class="d-flex align-items-center mb-2 mb-md-0">
@@ -36,7 +37,10 @@
                     <!-- Mobile-only Get Started and Whitepaper in single row inside collapse -->
                     <div class="d-flex flex-column align-items-center justify-content-between getStarted w-100 p-2 flex-wrap d-block d-md-none" style="background-color:#dedede;">
                       <span class="whitepaper me-3">Whitepaper</span>
-              
+                      <button class="btn" style="    border: none;
+                color: blue;
+                font-weight: 600;
+                font-size: 20px;" data-toggle="modal" data-target="#myModal" href="#myModal" >Login</button>
                       <button class="startBtn d-flex align-items-center">
                         <span class="startText">Get Started</span>
                         <span class="d-flex align-items-center">
@@ -52,20 +56,25 @@
               <!-- Desktop view of the Get Started and Whitepaper in single row -->
               <div class="desktopHeader d-flex align-items-center justify-content-between getStarted p-2 rounded-pill flex-wrap d-none d-md-flex">
                 <span class="whitepaper me-3">Whitepaper</span>
-              
-                <div class="darkTheme d-flex align-items-center me-3">
-                  <span class="EN">EN</span>
-                  <span class="vector ms-2">
-                    <img src="./images/Vector.png" alt="Vector Icon" />
-                  </span>
-                </div>
-              
                 <button class="startBtn d-flex align-items-center">
                   <span class="startText">Get Started</span>
                   <span class="d-flex align-items-center">
                     <img src="./images/SVG_margin.png" alt="SVG Icon" />
                   </span>
                 </button>
+                <button class="btn" style="    border: none;
+                color: blue;
+                font-weight: 600;
+                font-size: 20px;" data-toggle="modal" data-target="#myModal" href="#myModal" >Login</button>
+              
+                
+                <!-- <div class="darkTheme d-flex align-items-center me-3">
+                  <span class="EN">EN</span>
+                  <span class="vector ms-2">
+                    <img src="./images/Vector.png" alt="Vector Icon" />
+                  </span>
+                </div> -->
+              
               </div>
         </div>
     </header>
@@ -104,7 +113,6 @@
             </div>
         </div>
     </section>
-
     <!-- About Section -->
     <section id="about" class="bg-light py-5">
         <div class="container aboutContainer_">
@@ -382,7 +390,7 @@
     
     <!-- Footer Section -->
      
-    <footer id="footer" class="bg-light text-center py-5 ">
+    <footer id="footer" class="bg-light text-center  ">
         
         <div class=" text-center justify-content-center  container flex-wrap footer ">
             <div class="asd"></div> 
@@ -446,7 +454,7 @@
             <a href="#"><img src="./images/linkedIn.png"/></a>
         </div>
 
-        <div class="copyright" >
+        <div class="copyright" style="padding-top: 4rem" >
             <p>&copy; 2024 real.io | All rights reserved.</p>
         </div>
 
@@ -471,10 +479,55 @@
         </div>
     </footer>
 
+   <!-- Modal structure -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        
+        <!-- Modal Header -->
+        <div class="modal-header justify-content-between ">
+            <h5 class="modal-title">Login</h5>
+            <button type="button" class="close" style="
+            border: none;font-size: 24px;" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        
+        <!-- Modal Body -->
+        <div class="modal-body">
+          <form method="post" action="" name="login_form">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email Address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+              </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Password</label>
+                <input type="password" class="form-control" id="password" aria-describedby="password" placeholder="Enter password">
+                <!-- <small id="emailHelp" class="form-tet text-muted">We'll never share your email with anyone else.</small> -->
+              </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+              <a href="#" class="ml-3">Forgot Password?</a>
+            </div>
+          </form>
+        </div>
+        
+        <!-- Modal Footer -->
+        <div class="modal-footer">
+          <span>New To MyWebsite.com?</span>
+          <a href="#" class="btn btn-secondary">Register</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
     <!-- Bootstrap JS (optional) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
     
 </body>
 </html>

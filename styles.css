@@ -11,9 +11,16 @@ p{
 /* Existing CSS */
 .backgroundImage {
     background-image: url(./images/background.png);
-    background-size: cover;
-    background-position: center;
+    background-size: cover; /* Ensures the image covers the container fully */
+    background-position: center center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    width: 100%;
+    height: 100vh; /* Ensures the container takes up the full viewport height */
+    position: relative; /* Use relative positioning to place content inside */
+    z-index: 1; /* Keep content visible above the background */
+    bottom: 0; /* Positions the background at the bottom */
 }
+
 
 .header {
     position: relative;
@@ -297,7 +304,7 @@ p{
 }
 
 .token_1{
-    width: 1130px;
+    width: 100%;
     height: 48px;
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 15.88px;
@@ -345,7 +352,7 @@ p{
 }
 
 .card_3{
-    width: 407px;
+    width: 70%;
     height: 117px;
     max-width: 448px;
     text-align: left;
@@ -355,7 +362,7 @@ p{
 }
 
 .card_5{
-    width: 415px;
+    width: 70%;
     height: 117px;
     max-width: 448px;    
     text-align: left;
@@ -374,8 +381,14 @@ p{
     color: #475569;   
 }
 
+input.form-control {
+    display: block !important;
+    visibility: visible !important;
+    width: 100%; /* Ensure the input takes full width */
+  }
+
 .card_7{
-    width: 635px;
+    width: 100%;
     height: 117px;        
     text-align: left;
     gap: 0px;
@@ -467,7 +480,7 @@ height: 48px;
 
 
 .gover_main{
-    width: 732px;
+    width: 100%;
     height: 379px;
     justify-content: center !important;
 }
@@ -563,7 +576,6 @@ height: 48px;
     gap: 6.61px; /* Note: 'gap' does not apply to input elements */
     border-radius: 21px 0 0 0; /* Rounded corners */
     border: 1.32px solid transparent; /* Border color and width */
-    opacity: 0; /* Fully transparent */
     background-color: rgba(255, 255, 255, 0); /* Optional: transparent background */
 }
 
@@ -680,6 +692,35 @@ height: 48px;
 }
 
 
+
+.mat-input2::placeholder {
+    color: #6200ea; /* Placeholder color */
+    opacity: 1; /* Ensure the placeholder is visible */
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    border: none;
+   
+}
+
+.mat-input2:focus + .mat-label,
+.mat-input2:not(:placeholder-shown) + .mat-label {
+    top: -10px; /* Move label up */
+    left: 10px; /* Keep left space */
+    font-size: 14px; /* Smaller font size */
+    color: #6200ea; /* Change label color on focus */
+}
+
+.mat-input2:focus + .mat-label,
+.mat-input2:not(:placeholder-shown) + .mat-label {
+    top: -18px;
+    left: 23.79px;
+    font-size: 12px;
+    color: #6200ea; /* Color change for active state */
+}
+
 .msgBtn{
 width: 311px;
 height: 50px;
@@ -706,7 +747,7 @@ color: #FFFFFF;
 .asd {
     position: absolute;
     z-index: 5;
-    width: 2302.74px;
+    width: 1933px;
     height: 480.98px;
     border: 0.46px 0px 0px 0px;
     background-image: url(./images/asd1.png);
@@ -758,8 +799,8 @@ color: #FFFFFF;
 }
 
 .footerLogo {
-    width: 100%;
-    height: 50vh;
+    width: 301px;
+    height: 301px;
     gap: 0px;
     opacity: 0px;
     justify-content: center !important;
@@ -779,7 +820,7 @@ color: #FFFFFF;
 }
 
 .footer_5{
-   
+    max-width: 100%;
     align-items: center;
 }
 .socialIcon{
@@ -977,7 +1018,7 @@ color: #FFFFFF;
         opacity: 0px;
         position: relative;
         /* right: 10rem; */
-        top: 12rem;
+        top: 5rem;
         justify-content: center;
 
     }
@@ -996,7 +1037,7 @@ color: #FFFFFF;
         right: 0 !important;
         color: #475569;
         text-align: center;
-        top: 3rem;
+        /* top: 3rem; */
     }
 
     .footerLine{
@@ -1289,6 +1330,8 @@ color: #FFFFFF;
     .footer_3{
         font-size: 11px !important;
         width: 68%;
+        position: relative;
+        bottom: 5rem;
     }
     .asd{
         width: 100% !important;
