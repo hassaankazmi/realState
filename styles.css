@@ -1178,6 +1178,7 @@ color: #FFFFFF;
     .about_1{
     position: relative;
     top: 1.5rem;    
+    padding-top: 1rem;
     padding-left: 1rem !important;
     }
 
@@ -1192,7 +1193,7 @@ color: #FFFFFF;
     }
 
     .token_main {
-        margin-top: 30px;
+        margin-top: 20px;
         width: 94%;
         margin-bottom: 2rem;
 
