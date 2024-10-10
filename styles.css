@@ -51,6 +51,14 @@ p{
     cursor: pointer;
 }
 
+.whitepaper1{
+    padding: 0 16px; /* Adjust padding */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
 /* Dark Theme Toggle */
 .darkTheme {
     display: flex;
