@@ -1,3 +1,10 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 body {
     max-width: 100%;
     overflow-x: hidden;
@@ -73,9 +80,9 @@ p{
 }
 
 .EN {
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
+    /* font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
         "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-        "Segoe UI Symbol", "Noto Color Emoji";
+        "Segoe UI Symbol", "Noto Color Emoji"; */
     font-size: 14px;
     font-weight: 400;
     color: #006FFF;
@@ -100,9 +107,6 @@ p{
     align-items: center;
     width: 148px;
     height: 34px;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
-        "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-        "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -121,9 +125,6 @@ p{
     align-items: center;
     width: 148px;
     height: 34px;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
-        "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-        "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -141,9 +142,6 @@ p{
     align-items: center;
     width: 148px;
     height: 34px;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
-        "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-        "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -168,7 +166,6 @@ p{
 
 .real_1{
     display: flex;
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 60px;
     font-weight: 600;
     line-height: 28.8px;
@@ -191,7 +188,6 @@ p{
     left: 199px;
     gap: 0px;
     opacity: 0px;
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 33.6px;
     font-weight: 600;
     line-height: 48px;
@@ -206,7 +202,6 @@ p{
     left: 199px;
     gap: 0px;
     opacity: 0px;
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 26.8px;
     font-weight: 700;
     line-height: 35.1px;
@@ -220,7 +215,6 @@ p{
     left: 199px;
     gap: 0px;
     opacity: 0px;
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -261,7 +255,6 @@ p{
 }
 
 .about_title{
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 42px;
     font-weight: 600;
     line-height: 48px;
@@ -283,7 +276,6 @@ p{
 }
 
 .about_1{
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 17.86px;
     font-weight: 800;
     line-height: 28px;
@@ -309,7 +301,6 @@ p{
 .token_title{
     width: 576px;
     height: 48px;
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 42px;
     font-weight: 900;
     line-height: 48px;
@@ -320,7 +311,6 @@ p{
 .token_1{
     width: 100%;
     height: 48px;
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 15.88px;
     font-weight: 400;
     line-height: 24px;
@@ -358,7 +348,6 @@ p{
 }
 
 .card_2{
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 24px;
     font-weight: 800;
     line-height: 28px;
@@ -430,7 +419,6 @@ input.form-control {
     height: 136px;
     top: 2776px;
     left: 272px;
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 15.88px;
     font-weight: 400;
     line-height: 34px;
@@ -456,7 +444,6 @@ padding-bottom: 0 !important;
     width: 210px;
     top: 2598px;
     left: 1237px;
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 16px;
     font-weight: 800;
     line-height: 28px;
@@ -468,7 +455,6 @@ padding-bottom: 0 !important;
     width: 265px;
     top: 2598px;
     left: 1237px;
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 16px;
     font-weight: 400;
     line-height: 29.25px;
@@ -515,7 +501,6 @@ height: 48px;
     font-weight: 400;
     line-height: 29.25px;
     text-align: center;
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 
 }
 
@@ -796,7 +781,6 @@ color: #FFFFFF;
 }
 
 .footer_2{
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 22px;
     font-weight: 700;
     line-height: 28px;
@@ -804,7 +788,6 @@ color: #FFFFFF;
 }
 
 .footer_3{
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 16px;
     font-weight: 400;
     line-height: 29.25px;
