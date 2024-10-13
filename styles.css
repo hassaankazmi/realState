@@ -8,6 +8,7 @@ body {
 p{
     margin-top: 20px !important;
 }
+/* styles refactored */
 /* Existing CSS */
 .backgroundImage {
     background-image: url(./images/background.png);
