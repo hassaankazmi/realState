@@ -186,6 +186,11 @@ text-decoration-skip-ink: none;
     justify-content: center;
 }
 
+.proposalParent{
+    display: flex;
+    gap: 10px;
+}
+
 /* Tablet View (max-width: 992px) */
 @media (max-width: 992px) {
     .pendingProps {
@@ -227,6 +232,11 @@ text-decoration-skip-ink: none;
     }
     .proposal{
         width: 100%;
+    }
+    .proposalParent{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 }
 
