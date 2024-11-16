@@ -1,0 +1,345 @@
+.TotalValue{
+    color: #1F92F6;
+}
+
+.cardSection{
+    width: 100%;
+    height: 522px;
+    top: 343px;
+    left: 203px;
+    gap: 0px;
+    border-radius: 40px ;
+    opacity: 0px;   
+}
+
+.card1{
+    background-color: #f9f9f9; /* Adjust background as needed */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 1399px;
+    height: 439px;
+    top: 385px;
+    left: 261px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.cardImg{
+    width: 100%;
+    /* max-width: 120px;  */
+    /* height: 439px; */
+    top: 385px;
+    left: 261px;
+    gap: 0px;
+    border-radius:20px;
+    opacity: 0px;
+
+}
+
+.cardContent{
+    width: 802px;
+    height: 395px;
+    margin-left: 0; 
+    gap: 0px;
+    border-radius: 9999px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.card2_Content{
+    width: 802px;
+    height: 395px;
+    margin-left: 0; 
+    gap: 0px;
+    border-radius: 9999px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.cardContentTilte{
+    width: 802px;
+    height: 49px;
+    top: 407px;
+    left: 858px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: JetBrains Mono;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 28.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
+.cardDesc{
+    font-family: Lato;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.card2_title{
+    width: 576px;
+    height: 34px;
+    top: 957px;
+    left: 261px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: JetBrains Mono;
+font-size: 40px;
+font-weight: 800;
+line-height: 33.53px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+    
+}
+
+.visitBtn {
+    background: #006FFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px; /* Adjust padding */
+    display: flex;
+    align-items: center;
+    width: 148px;
+    height: 34px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 0 !important;
+}
+
+/* Default (Desktop) Styles */
+.pendingProps {
+    width: 100%; /* Ensure full width responsiveness */
+    max-width: 1512px; /* Keep original width for desktop */
+    height: 144px; /* Fixed height for desktop */
+    /* padding: 19px 72px 18px 72px; */
+    gap: 0px;
+    
+    border-radius: 8px; /* Optional: Smooth corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+.pendingProps img{
+    border-radius: 20px;
+}
+
+.Voting {
+    display: flex;
+    align-items: center;
+    position: relative; /* Position relative for absolute positioning of the ball */
+    background-image: url('./images/contact.png');
+    background-size: cover; /* Make sure the contact image covers the container */
+    width: 1514px;
+    height: 180px;
+    gap: 0px;
+    opacity: 0px;    
+    border-radius: 35.4px;
+    overflow: hidden; /* Ensure no overflow of ball image */
+}
+
+.Voting::before {
+    content: ''; /* Create a pseudo-element */
+    position: absolute; /* Position it absolutely within the container */
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    background-image: url('./images/balls.png');
+    background-size: contain; /* Adjust size to fit */
+    width: 100%; /* Set the desired width */
+    height: 100vh; /* Set the desired height */
+    z-index: 1; /* Ensure it's above the background */
+}
+
+.voting_font{
+    font-family: Lato;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.proposal{
+    width: 246px;
+    height: 50px;
+    top: 66px;
+    left: 848px;
+    padding: 5px 16px 5px 16px;
+    gap: 0px;
+    border-radius: 9999px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+
+/* Tablet View (max-width: 992px) */
+@media (max-width: 992px) {
+    .pendingProps {
+        flex-wrap: wrap; /* Stack items vertically */
+        height: auto; /* Let height adjust dynamically */
+        gap: 1rem; /* Add spacing between items */
+    }
+
+    .pendingProps span {
+        flex: 1 1 100%; /* Make each item full width */
+        text-align: center; /* Center-align content */
+        justify-content: center;
+    }
+
+    .pendingProps img {
+        width: 50%; /* Center the image */
+    }
+
+    .visitBtn {
+        width: 100%; /* Full-width button */
+        justify-content: center;
+    }
+    .pendingListing{
+        margin-top: 5rem !important;
+    }
+    .disply{
+        display: none !important;
+    }
+    .display{
+        display: flex !important;
+    }
+    .voteSection{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    .voting_font{
+        justify-content: center;
+    }
+    .proposal{
+        width: 100%;
+    }
+}
+
+/* Mobile View (max-width: 576px) */
+@media (max-width: 576px) {
+    .pendingProps {
+        padding: 10px; /* Reduce padding for mobile */
+        gap: 0.5rem; /* Smaller gaps for compact layout */
+    }
+
+    .pendingProps img {
+        width: 50%; /* Smaller image size */
+        height: auto;
+    }
+
+    
+    .pendingListing{
+        margin-top: 10rem !important;
+    }
+
+    
+    
+}
+
+/* Mobile styles */
+@media (max-width: 767.98px) {
+    .card1 {
+        padding: 1rem;
+    }
+
+    .cardContentTitle {
+        font-size: 1.2rem; /* Adjust title font size for mobile */
+    }
+
+    .cardDesc {
+        font-size: 0.9rem; /* Adjust description font size for mobile */
+    }
+
+    .startBtn_3 {
+        padding: 0.6rem 1rem; /* Adjust button size for mobile */
+    }
+
+    .TotalVal{
+        width: 100%;
+    }
+    .pendingListing{
+        margin-top: 10rem !important;
+    }
+}
+
+/* Tablet styles */
+@media (max-width: 991.98px) {
+    .card1 {
+        padding: 1rem;
+    }
+
+    .cardContentTitle {
+        font-size: 1.2rem; /* Adjust title font size for mobile */
+    }
+
+    .cardDesc {
+        font-size: 0.9rem; /* Adjust description font size for mobile */
+    }
+
+    .startBtn_3 {
+        padding: 0.6rem 1rem; /* Adjust button size for mobile */
+    }
+    .cardContent {
+        gap: 24px; /* Increase gap between elements on tablet */
+        margin-left:0 !important ;
+    }
+    .card1_section{
+        height: 100vh !important;
+    }
+    .card2_Content {
+        gap: 24px; /* Increase gap between elements on tablet */
+        margin-left:0 !important ;
+    }
+    .TotalVal{
+        width: 100%;
+    }
+    .card2_title{
+        font-size: 25px !important;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+    .cardSection {
+        width: 50%; /* Center and limit width on larger screens */
+    }
+
+    .card1 {
+        padding: 2rem;
+    }
+
+    .cardContent{
+        margin-left: 5rem !important;
+    }
+    .cardContentTitle {
+        font-size: 1.5rem; /* Larger title font size for desktop */
+    }
+
+    .cardDesc {
+        font-size: 1rem; /* Regular font size for desktop */
+    }
+    .TotalVal{
+        width: 631px !important;
+    }
+    .disply{
+        display: flex !important;
+    }
+    .display{
+        display: none !important;
+    }
+}

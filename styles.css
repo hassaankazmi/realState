@@ -38,6 +38,9 @@ p{
     */
 }
 
+.w-50{
+    width: 50%;
+}
 .logo {
     max-width: 150px; /* Set a max-width for the logo */
     height: auto;
@@ -50,6 +53,7 @@ p{
     align-items: center;
     flex-wrap: wrap;
 }
+/* styles removed */
 
 /* Whitepaper Styling */
 .whitepaper {
@@ -1053,10 +1057,10 @@ color: #FFFFFF;
 /* Mobile View */
 @media (max-width: 576px) {
 
-    .container{
+    /* .container{
         padding: 0 !important;
         margin: 0 !important;
-    }
+    } */
     .header {
         padding: 10px 0;
     }
@@ -1287,7 +1291,7 @@ color: #FFFFFF;
     }
     
     .startBtn_4{
-        margin-top: 2.5rem;
+        margin-top: 5.5rem;
     }
 
     .gover_main{
